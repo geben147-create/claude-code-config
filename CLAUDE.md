@@ -362,7 +362,7 @@ For any non-trivial project, follow this 3-phase approach:
 ### 스킬 즉석 생성 3단계 (코딩 없음)
 ```
 1. 터미널: plugin 명령어 1개로 skill-creator 설치
-2. 자연어 지시: "YT-DLP로 영상 검색 후 결과 구조화해서 반환하는 스킬 만들어줘"
+2. 자연어 지시: "웹에서 영상 검색 후 결과 구조화해서 반환하는 스킬 만들어줘"
 3. Claude Code가 백엔드 코드 자동 작성 → 즉시 실행 가능
 ```
 → AI가 자기 한계를 극복할 도구를 스스로 만들어낸다
@@ -371,7 +371,7 @@ For any non-trivial project, follow this 3-phase approach:
 ```
 자연어 프롬프트 1개
     ↓
-[수집] YT-DLP → 영상/웹 데이터 자동 수집
+[수집] 수집 도구 → 영상/웹 데이터 자동 수집
     ↓
 [분석] NotebookLM → 구글 서버에서 심층 분석 (토큰 0원)
     ↓
@@ -402,7 +402,7 @@ For any non-trivial project, follow this 3-phase approach:
 - 경영진: 사내 데이터 → 전략 보고서 6분
 
 ### 필요 도구
-- **YT-DLP**: 영상/정보 수집 (디지털 진공청소기)
+- **수집 도구**: 영상/정보 수집 (디지털 진공청소기)
 - **NotebookLM CLI**: 구글 인증 후 무료 분석 엔진 사용
 - **Obsidian**: 로컬 마크다운 지식 관리 앱 (무료)
 
